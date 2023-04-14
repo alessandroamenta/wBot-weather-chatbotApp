@@ -1,0 +1,96 @@
+.city-card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #EDEDED;
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  position: relative;
+}
+
+.city-card h3 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.city-card__weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-card__weather img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.city-card__weather p {
+  color: #666666;
+  font-size: 18px;
+  margin: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007AFF;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062CC;
+}
+
+h2 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.city-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.trash-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #333333;
+}
+
+.trash-icon button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
